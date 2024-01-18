@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapper {
+  @apply lg:w-[1200px] w-11/12 mx-auto;
+}
+
+.btn-primary {
+  @apply py-2 px-4 inline-flex items-center justify-center font-semibold bg-primary rounded text-white hover:bg-primary-dark focus:bg-primary-darker active:bg-primary-darker transition-colors;
+}
+
+.btn-primary-outline {
+  @apply py-2 px-4 inline-flex items-center justify-center font-semibold border-primary border rounded text-primary hover:bg-primary focus:bg-primary-darker focus:border-primary-darker active:border-primary-darker hover:text-white focus:text-white active:text-white transition-colors;
+}
+
+.btn-secondary {
+  @apply py-2 px-4 inline-flex items-center justify-center font-semibold bg-secondary rounded text-white hover:bg-secondary-dark focus:bg-secondary-darker active:bg-secondary-darker transition-colors;
+}
+
+.btn-secondary-outline {
+  @apply py-2 px-4 inline-flex items-center justify-center font-semibold border-secondary border rounded text-secondary hover:bg-secondary focus:bg-secondary-darker focus:border-secondary-darker active:border-secondary-darker hover:text-white focus:text-white active:text-white transition-colors;
+}
