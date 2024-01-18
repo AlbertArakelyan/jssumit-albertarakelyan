@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   @apply lg:w-[1200px] w-11/12 mx-auto;
 }
