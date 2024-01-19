@@ -25,3 +25,7 @@ html, body {
 .btn-secondary-outline {
   @apply py-2 px-4 inline-flex items-center justify-center font-semibold border-secondary border rounded text-secondary hover:bg-secondary focus:bg-secondary-darker focus:border-secondary-darker active:border-secondary-darker hover:text-white focus:text-white active:text-white transition-colors;
 }
+
+.section-title {
+  @apply text-center text-4xl font-bold mb-16 relative after:absolute after:h-[0.5525rem] after:w-10/12 after:left-1/2 after:-translate-x-1/2 after:-bottom-4 after:bg-inherit after:rounded-md
+}
