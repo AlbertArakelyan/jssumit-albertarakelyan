@@ -2,122 +2,162 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/AA_logo.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8"/>
+  <link rel="icon" type="image/svg+xml" href="/AA_logo.svg"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="./css/style.css">
   <title>JSSummit | Albert Arakelyan</title>
 </head>
 
 <body>
-  <header class="bg-primary text-white absolute left-0 top-0 w-full p-5">
-    <div class="wrapper ">
-      <div class="flex items-center justify-between">
-        <a href="#">
-          <svg width="48" height="48" viewBox="0 0 172 273" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="2.12102" y1="269.315" x2="68.121" y2="88.3148" stroke="white" stroke-width="4" />
-            <line x1="132.255" y1="270.577" x2="70.8024" y2="85.7392" stroke="white" stroke-width="10" />
-            <line x1="30" y1="188" x2="106" y2="188" stroke="white" stroke-width="4" />
-            <line x1="18.1362" y1="153.275" x2="76.1362" y2="4.27451" stroke="white" stroke-width="4" />
-            <line x1="166.702" y1="266.567" x2="79.249" y2="1.56683" stroke="white" stroke-width="10" />
-            <line x1="68" y1="151" x2="128" y2="151" stroke="white" stroke-width="4" />
+<header class="bg-primary text-white absolute left-0 top-0 w-full p-5">
+  <div class="wrapper ">
+    <div class="flex items-center justify-between">
+      <a href="#">
+        <svg width="48" height="48" viewBox="0 0 172 273" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="2.12102" y1="269.315" x2="68.121" y2="88.3148" stroke="white" stroke-width="4"/>
+          <line x1="132.255" y1="270.577" x2="70.8024" y2="85.7392" stroke="white" stroke-width="10"/>
+          <line x1="30" y1="188" x2="106" y2="188" stroke="white" stroke-width="4"/>
+          <line x1="18.1362" y1="153.275" x2="76.1362" y2="4.27451" stroke="white" stroke-width="4"/>
+          <line x1="166.702" y1="266.567" x2="79.249" y2="1.56683" stroke="white" stroke-width="10"/>
+          <line x1="68" y1="151" x2="128" y2="151" stroke="white" stroke-width="4"/>
+        </svg>
+      </a>
+      <nav>
+        <ul class="flex items-center justify-end">
+          <li class="mx-1">
+            <a
+              class="relative px-6 py-3 inline-block after:h-[0.125rem] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-white after:w-0 hover:after:w-full after:transition-all"
+              href="#">
+              Home
+            </a>
+          </li>
+          <li class="mx-1">
+            <a
+              class="relative px-6 py-3 inline-block after:h-[0.125rem] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-white after:w-0 hover:after:w-full after:transition-all"
+              href="#motivation">
+              Motivation
+            </a>
+          </li>
+          <li class="mx-1">
+            <a
+              class="relative px-6 py-3 inline-block after:h-[0.125rem] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-white after:w-0 hover:after:w-full after:transition-all"
+              href="#goal">
+              Goal
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<section id="intro" class="min-h-screen text-primary flex flex-col items-center justify-center">
+  <div class="wrapper">
+    <div class="flex flex-col items-center justify-center">
+      <div class="max-w-[25rem] w-full flex flex-col items-center justify-center mx-auto mb-2">
+        <h2 class="text-secondary text-6xl font-bold text-center mb-1">Hi I'm Albert.</h2>
+        <p class="text-center text-xl">
+          Whose one of most favorite topics is Github, its promotion and how it can serve you.
+        </p>
+      </div>
+      <!-- TODO Add some greeting image of mine -->
+      <div class="flex items-center justify-center mx-auto gap-4">
+        <a class="btn-secondary text-xl" href="/files/Github_as_CV.pdf" download="Github_as_CV.pdf">
+          <span class="mr-1">Download Slides</span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="1rem" viewBox="0 0 512 512">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <style>
+              svg {
+                fill: #ffffff
+              }
+            </style>
+            <path
+              d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z">
+            </path>
           </svg>
         </a>
-        <nav>
-          <ul class="flex items-center justify-end">
-            <li class="mx-1">
-              <a class="relative px-6 py-3 inline-block after:h-[0.125rem] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-white after:w-0 hover:after:w-full after:transition-all"
-                href="#">
-                Home
-              </a>
-            </li>
-            <li class="mx-1">
-              <a class="relative px-6 py-3 inline-block after:h-[0.125rem] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-white after:w-0 hover:after:w-full after:transition-all"
-                href="#motivation">
-                Motivation
-              </a>
-            </li>
-            <li class="mx-1">
-              <a class="relative px-6 py-3 inline-block after:h-[0.125rem] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-white after:w-0 hover:after:w-full after:transition-all"
-                 href="#goal">
-                Goal
-              </a>
-            </li>
+        <a class="btn-secondary-outline text-xl" href="#motivation">
+          <span class="mr-1">Explore More</span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="1rem" viewBox="0 0 384 512">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <style>
+              svg {
+                fill: currentColor
+              }
+            </style>
+            <path
+              d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+            </path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="motivation" class="py-8 bg-primary text-white">
+  <div class="wrapper">
+    <div class="flex flex-col items-center justify-start">
+      <h2 class="section-title after:bg-white">Motivation</h2>
+      <p class="text-center text-lg">
+        Pushing some interesting stuff such as code examples, pet projects, folder structure examples and packages is
+        one of my interests. I was active on Github, but I became more active when during one of customer interviews
+        the interviewer asked for my Github account and said you have a very nice and active one. After that not just
+        only pushing codes but also creating a useful content and gaining stars and followers started interesting me
+        (the habbit remains since I started creating content on Youtube earlier). Another thing that inspired me is
+        when teammates were about to start and structure new project especially with a new technology, when they asked
+        me how to structure this I just was able to send them one of my repos and tell to do accordingly and everything
+        worked fine, that also made me believe in having a useful content.
+      </p>
+    </div>
+  </div>
+</section>
+<section id="goal" class="py-8 text-primary">
+  <div class="wrapper">
+    <div class="flex flex-col items-center justify-start">
+      <h2 class="section-title after:bg-primary">Goal</h2>
+      <p class="text-center text-lg">
+        As I like teaching and sharing what I know, my goal is to share all my gained experience and interesting
+        resources that I found so far. Also get you all engaged with my content which I hope you will find useful 😊.
+      </p>
+    </div>
+  </div>
+</section>
+<section id="about" class="py-8 bg-primary text-white">
+  <div class="wrapper">
+    <div class="flex flex-col items-center justify-start">
+      <h2 class="section-title after:bg-white">About</h2>
+      <div class="flex flex-col items-center justify-start w-full">
+        <h3 class="text-2xl font-semibold mb-1">Pet projects</h3>
+        <div class="mb-3">
+          <p>Pet projects are those projects which meet this criteria:</p>
+          <ul class="list-disc list-inside">
+            <li>Have a purpose</li>
+            <li>Which are treated as real projects</li>
+            <li>Have strong code bases and good architecture</li>
+            <li>Not too much complex</li>
+            <li>Probably you can find something similar on the internet</li>
           </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <section id="intro" class="min-h-screen text-primary flex flex-col items-center justify-center">
-    <div class="wrapper">
-      <div class="flex flex-col items-center justify-center">
-        <div class="max-w-[25rem] w-full flex flex-col items-center justify-center mx-auto mb-2">
-          <h2 class="text-secondary text-6xl font-bold text-center mb-1">Hi I'm Albert.</h2>
-          <p class="text-center text-xl">
-            Whose one of most favorite topics is Github, its promotion and how it can serve you.
-          </p>
         </div>
-        <!-- TODO Add some greeting image of mine -->
-        <div class="flex items-center justify-center mx-auto gap-4">
-          <a class="btn-secondary text-xl" href="/files/Github_as_CV.pdf" download="Github_as_CV.pdf">
-            <span class="mr-1">Download Slides</span>
-            <svg xmlns="http://www.w3.org/2000/svg" height="1rem" viewBox="0 0 512 512">
-              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-              <style>
-                svg {
-                  fill: #ffffff
-                }
-              </style>
-              <path
-                d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z">
-              </path>
-            </svg>
-          </a>
-          <a class="btn-secondary-outline text-xl" href="#motivation">
-            <span class="mr-1">Explore More</span>
-            <svg xmlns="http://www.w3.org/2000/svg" height="1rem" viewBox="0 0 384 512">
-              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-              <style>
-                svg {
-                  fill: currentColor
-                }
-              </style>
-              <path
-                d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
-              </path>
-            </svg>
-          </a>
+        <div class="flex flex-col items-center justify-start w-10/12 mb-4">
+          <h4 class="text-lg mb-2">Take a look at some of my pet projects</h4>
+          <div class="grid grid-cols-3 gap-4 w-full">
+            <a class="text-center text-secondary-light underline"
+               href="https://github.com/AlbertArakelyan/keep-command" target="_blank">keep-command</a>
+            <a class="text-center text-secondary-light underline"
+               href="https://github.com/AlbertArakelyan/checkinator-frontend" target="_blank">checkinator-frontend</a>
+            <a class="text-center text-secondary-light underline"
+               href="https://github.com/AlbertArakelyan/react-express-exoplanet-project" target="_blank">react-express-exoplanet-project</a>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section id="motivation" class="py-8 bg-primary text-white">
-    <div class="wrapper">
-      <div class="flex flex-col items-center justify-start">
-        <h2 class="section-title after:bg-white">Motivation</h2>
-        <p class="text-center text-lg">
-          Pushing some interesting stuff such as code examples, pet projects, folder structure examples and packages is
-          one of my interests. I was active on Github, but I became more active when during one of customer interviews
-          the interviewer asked for my Github account and said you have a very nice and active one. After that not just
-          only pushing codes but also creating a useful content and gaining stars and followers started interesting me
-          (the habbit remains since I started creating content on Youtube earlier). Another thing that inspired me is
-          when teammates were about to start and structure new project especially with a new technology, when they asked
-          me how to structure this I just was able to send them one of my repos and tell to do accordingly and everything
-          worked fine, that also made me believe in having a useful content.
+        <p class="text-center italic">
+          Tip: Try to create pet projects based on your needs and not only technical needs, e.g. you need a financial
+          app try to create it with the tech stack you need to learn, you will create it with more pleasure and will
+          have a showcase to share with others.
         </p>
       </div>
     </div>
-  </section>
-  <section id="goal" class="py-8 text-primary">
-    <div class="wrapper">
-      <div class="flex flex-col items-center justify-start">
-        <h2 class="section-title after:bg-primary">Goal</h2>
-        <p class="text-center text-lg">
-          As I like teaching and sharing what I know, my goal is to share all my gained experience and interesting resources that I found so far. Also get you all engaged with my content which I hope you will find useful 😊.
-        </p>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 </body>
 
 </html>
